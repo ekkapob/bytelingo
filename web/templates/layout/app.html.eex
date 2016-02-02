@@ -7,11 +7,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Hello Phoenix!</title>
+    <title>Bytelingo 101</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
   <body>
+    <%= render "header.html" %>
     <div class="container" role="main">
       <div class="header">
         <ul class="nav nav-pills pull-right">
